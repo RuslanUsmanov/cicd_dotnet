@@ -6,12 +6,12 @@ before_script:
 build:
   stage: build
   script:
-  - 'dotnet build'
+  - 'dotnet build --no-restore'
 
 test:
   stage: test
   script:
-  - 'dotnet test'
+  - 'dotnet test --no-build'
 
 # deploy:
 #   stage: deploy
