@@ -1,4 +1,4 @@
-image: dotnet:7.0
+image: image: mcr.microsoft.com/dotnet/sdk:7.0
 
 before_script:
   - dotnet restore
