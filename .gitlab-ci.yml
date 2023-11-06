@@ -1,0 +1,12 @@
+image: dotnet:7.0
+
+before_script:
+  - dotnet restore
+
+build:
+  script:
+  - dotnet build
+
+test:
+  script:
+  - dotnet test
