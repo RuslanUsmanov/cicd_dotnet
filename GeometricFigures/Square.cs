@@ -14,6 +14,6 @@ public class Square
 
     public double GetPerimeter()
     {
-        return A*4;
+        return A*5;
     }
 }
