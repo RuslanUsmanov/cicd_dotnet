@@ -1,7 +1,7 @@
 public class Square
 {
     public double A;
-
+    public double S;
     public Square(double a)
     {
         this.A = a;
