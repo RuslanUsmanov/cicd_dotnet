@@ -10,10 +10,10 @@ jobs:
       - name: Get code form repo
         uses: actions/checkout@v4
 
-      - name: Setup .NET 7.0
+      - name: Setup .NET 8.0
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: '7.0'
+          dotnet-version: '8.0'
 
       - name: Install dependencies
         run: dotnet restore
